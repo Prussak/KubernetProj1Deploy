@@ -1,10 +1,10 @@
 ##### No terminal:
-kubectl.exe apply -f ./app-deployment.yml
+kubectl.exe apply -f ./backendDeploy.yml
 
 kubectl.exe get pods
 
 kubectl get deployment
 
-kubectl.exe expose deployment html-deployment
+kubectl.exe expose deployment php-deployment
 
 kubectl.exe get service	###(libera o ip externo de acesso para o serviço app-html)
