@@ -1,0 +1,4 @@
+############criar deployment
+mkdir backend
+cd backend
+code .
